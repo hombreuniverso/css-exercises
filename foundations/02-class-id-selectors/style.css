@@ -1,0 +1,23 @@
+.odd{
+    /*pink*/
+    background-color: hsl(350, 100%, 88%);
+    font-family: Verdana, "DejaVu Sans", sans-serif;
+
+}
+
+#unique-id{
+    /*blue*/
+    color: #0000e1;
+    font-size: 36px;
+    
+}
+
+.size{
+    font-size: 24px;
+}
+
+#another-id{
+    /*light green with alpha*/
+    background-color: rgba(0, 255, 0, 0.4);
+    font-weight: bold;
+}
