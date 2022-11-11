@@ -1,0 +1,16 @@
+/*The avatar is shared and can be chained with other classes and 
+declared with different rules*/
+.avatar.proportioned{
+height: auto;
+width: 300px;
+
+} 
+
+.avatar.distorted{
+    height: 400px;
+    width: 200px;
+
+}
+
+
+
