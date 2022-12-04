@@ -1,6 +1,12 @@
-.header  {
+.header {
+  min-width: 604px; /*Prevents the links from falling off background when it is reduced*/
+  width: auto;
+  height: 80px;
   font-family: monospace;
   background: papayawhip;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .logo {
@@ -8,12 +14,17 @@
   font-weight: 900;
   color: tomato;
   background: white;
-  padding: 4px 32px;
+  padding: 2px 30px;
+   /*No space between logo when reduced*/
+  margin: 0px -20px 0px -15px;
+  justify-content: center;
 }
 
 ul {
   /* this removes the dots on the list items*/
   list-style-type: none;
+  display: flex;
+  margin: 0px 10px 0px -34px;
 }
 
 a {
@@ -21,5 +32,8 @@ a {
   background: white;
   padding: 8px;
   /* this removes the line under the links */
-  text-decoration: none;
+    text-decoration: none;
+  /*Left/Right space between links*/
+  margin: 0px 4px;
 }
+
